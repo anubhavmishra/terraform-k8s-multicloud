@@ -1,7 +1,3 @@
-locals {
-  service_account_path = "${path.module}/service-account.yaml"
-}
-
 provider "google" {
   project = "${var.gke_project}"
 }
